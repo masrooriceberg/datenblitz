@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+section.heroe {
+    max-width: 1400px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #000066;
+}
+.headersearchbox {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.headersearch {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+.flex-grow {
+    flex-grow: 1;
+    background: white;
+}
+.pt-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ table {
+      width: 80%;
+      border-collapse: collapse;
+      background-color: #1f2937;
+      border: 1px solid #374151;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    thead {
+      background-color: #374151;
+    }
+
+    thead th {
+      padding: 12px;
+      font-size: 16px;
+      text-align: left;
+      color: #e5e7eb;
+      text-transform: uppercase;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #1f2937;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #111827;
+    }
+
+    tbody td {
+      padding: 12px;
+      font-size: 14px;
+      border-bottom: 1px solid #374151;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: #334155;
+      cursor: pointer;
+    }
+ 
